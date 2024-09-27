@@ -45,7 +45,8 @@
     }
   
     .styled-button {
-      padding: 8px;    
+      border-radius : 20px;   
+        padding:7px;
     }
   }
   
