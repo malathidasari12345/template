@@ -1,0 +1,137 @@
+.top-categories {
+  padding: 20px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.top-categories h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.view-more-button {
+  border: 1px solid #ee1e50;
+  background-color: #ee1e50;
+  border-radius: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.view-more-button:hover {
+  background-color: #fa0c44;
+}
+
+p {
+  margin-left: 80px;
+}
+
+.images {
+  display: grid;
+  grid-gap: 20px;
+  justify-content: center;
+  margin: 20px 80px;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-label {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.images img {
+  height: 150px;
+  width: 150px;
+  border: 4px solid gray;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.images img:hover {
+  border-color: #ee1e50;
+  transform: scale(1.1); 
+}
+
+.view-more {
+  display: block;
+  margin: 20px auto;
+  color: #ee1e50;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+}
+
+.view-more:hover {
+  border-radius: 20px;
+  color: #ee1e50;
+  background-color: transparent;
+}
+
+/* Responsive Design */
+@media (min-width: 1024px) {
+  .images {
+      grid-template-columns: repeat(6, 1fr);
+  }
+
+  .view-more {
+      display: none; 
+  }
+
+  .top-categories h1,
+  .top-categories p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .images {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .images {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .view-more-button {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .images {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .top-categories {
+      flex-direction: column;
+      margin-left: 0;
+      text-align: center;
+  }
+  .view-more-button{
+    display: none; 
+}
+.view-more {
+  text-align: center; 
+}
+
+  p {
+      margin-left: 0;
+  }
+
+ 
+  .d-lg-none {
+      display: block;
+  }
+}
+
+

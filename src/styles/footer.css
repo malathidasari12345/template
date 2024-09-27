@@ -1,0 +1,111 @@
+
+.footer-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #6c757d;
+}
+
+/* Info Section */
+.footer-info img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    color: #6c757d;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-info .text-pink {
+    color: #f72358;
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;  
+}
+
+.footer-info span:hover {
+    color: #f72358;
+}
+
+.footer-info .icon {
+    color: #f72358;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+/* Resources and About Us Section */
+.footer-links h1 {
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.footer-links p {
+    text-align: center;
+    color: #6c757d;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.footer-links p:hover {
+    color: #f72358;
+}
+
+/* Newsletter Section */
+.footer-newsletter h1 {
+    margin-bottom: 15px;
+    color: #000; 
+}
+
+.footer-newsletter .form-control {
+    border-radius: 0;
+}
+
+.footer-newsletter .form-control:hover {
+    border: 3px solid #f72358;
+}
+
+.footer-newsletter .btn-pink {
+    background-color: #f72358;
+    color: white;
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.footer-newsletter .btn-pink:hover {
+    background-color: #e6194b;
+}
+
+.footer-newsletter .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-newsletter .social-icons .icon {
+    color: white;
+    background-color: #f72358;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.footer-newsletter .social-icons .icon:hover {
+    background-color: #e6194b;
+}
+
+
+@media (max-width: 768px) {
+    .footer-container{
+        display: none;
+    }
+}

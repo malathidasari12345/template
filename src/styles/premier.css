@@ -1,0 +1,56 @@
+/* styling */
+.background-image {
+    background-image: url('https://nextall.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-3.11a8eff5.png&w=1200&q=75');
+    background-size: cover;
+    background-position: center; 
+    height: 400px; 
+    display: flex;
+    position: relative; 
+  }
+  
+  .text-content {
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px; 
+    border-radius: 10px; 
+    color: black;
+    margin-left: 60px;
+  }
+  
+  .text-content h1 {
+    font-size: 2em; 
+    margin-bottom: 10px; 
+    color: black; 
+    max-width: 500px;
+    font-weight: bold;
+  }
+  
+  .text-content h6 {
+    font-size: 1.2em; 
+    margin-bottom: 20px;
+    color: black; 
+    max-width: 500px; 
+    line-height: 1.5; 
+  }
+  
+  .text-content button {
+    border: 1px solid #007bff; 
+    border-radius:25px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    background-color: #007bff; 
+    color: white; 
+   
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+    .background-image{
+      display: none;
+    }
+  }
+
+  

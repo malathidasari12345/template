@@ -1,0 +1,32 @@
+.buttonstyle {
+    border: 1px solid #ee1e50;
+    background-color: #ee1e50;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.buttonstyle:hover{
+    background-color: #fa0c44;
+}
+
+
+.view-more {
+    color: #ee1e50;
+    border:none;
+    background-color: transparent;
+    font-weight:bold;
+  }
+
+
+.view-more:hover {
+    border-radius: 20px;
+    color:#ee1e50;
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    h1,h6{
+        text-align: center;
+    } 
+}
