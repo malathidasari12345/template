@@ -41,7 +41,7 @@
   /* Media queries for mobile devices */
 @media (max-width: 768px) {
     .card-text {
-      font-size: 8px; 
+     display:none
     }
   
     .styled-button {
